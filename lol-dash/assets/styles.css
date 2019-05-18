@@ -1,0 +1,22 @@
+body {
+    background-color: #000;
+}
+p {
+    color: #FFCC33;
+}
+
+.container {
+    display: grid;
+     grid-template-areas:
+        'c1'
+        'c2 c3 c4'
+        'c5';
+    grid-row-gap: 1em;
+    justify-items: center;
+  }
+
+  Figcaption {
+    color: #D48F04;
+    text-align: center;
+    font-size: 50px;
+  }
